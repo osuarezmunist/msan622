@@ -1,13 +1,13 @@
 Homework 1: Basic Charts
 ==============================
 
-| **Name**  | [YOUR NAME]  |
+| **Name**  | Octavio Suarez Munist  |
 |----------:|:-------------|
-| **Email** | [USERNAME]@dons.usfca.edu |
+| **Email** | osuarezmunist@dons.usfca.edu |
 
 ## Instructions ##
 
-[INSTRUCTIONS: Include instructions on how to run your code. See [`homework0`](../homework0) for an example.]
+Change to desired working directory and run hw.r to produce all 4 charts.
 
 ## Discussion ##
 
