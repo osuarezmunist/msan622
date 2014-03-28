@@ -7,8 +7,18 @@ Homework 1: Basic Charts
 
 ## Instructions ##
 
-Change to desired working directory and run hw.r to produce all 4 charts.
+Change to desired working directory and run hw1.r to produce all 4 charts.
 
 ## Discussion ##
 
-[DISCUSSION: Include a discussion here if required by the assignment.]
+Problem 1
+![IMAGE](hw1-scatter.png)
+
+Problem 2
+![IMAGE](hw1-bar.png)
+
+Problem 3
+![IMAGE](hw1-multiples.png)
+
+Problem 4
+![IMAGE](hw1-multiline.png)
