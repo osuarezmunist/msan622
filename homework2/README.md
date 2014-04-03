@@ -26,4 +26,4 @@ This will start the `shiny` app. See below for details on how to interact with t
 Provided a simple scatter plot with four input widgets to filter by rating and genre. Instead of sliders for appearance of dots, used two sliders to allow filtering by budget. This seemed like a more useful set of controls to explore the data.
 
 
-I only filtered out movies with no budget, as the rest can be filtered by user.
+I only filtered out movies with no budget, as the rest can be filtered by user. User can gray out undesired genres. However, MPAA ratings and budgets not in the selected category and range, respectively, are removed completely to reduce clutter and allow x-axis to zoom in.
