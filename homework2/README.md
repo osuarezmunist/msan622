@@ -27,3 +27,5 @@ This shiny, new App provides a simple scatter plot with four input widgets to fi
 
 
 I only filtered out movies with no budget, as the rest can be filtered by user. User can gray out undesired genres. However, MPAA ratings and budgets not in the selected category/ies and range, respectively, are removed completely to reduce clutter and allow x-axis to zoom in. I fixed the range of the y-axis, but, after playing around with fixing the origin at 0 for the x-axis, I decided to allow it to change to allow for zooming in on the x-axis.
+
+![IMAGE](screenshotHw2.png)
