@@ -3,7 +3,7 @@ Homework 3: Multivariate
 
 | **Name**  | Octavio Suarez Munist  |
 |----------:|:-------------|
-| **Email** | [osuarezmunist@dons.usfca.edu |
+| **Email** | osuarezmunist@dons.usfca.edu |
 
 ## Instructions ##
 
