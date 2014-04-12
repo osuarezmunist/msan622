@@ -1,7 +1,7 @@
 # ui.R
 # Just setting up input widgets
 shinyUI(pageWithSidebar(
-  headerPanel("If you could choose one State to live in to Maximize your Life Expectancy in 1977, what woud it be?"),
+  headerPanel("If you could choose one State to live in to Maximize your Life Expectancy in 1977, which one would it be?"),
 
   
     sidebarPanel( 

@@ -145,7 +145,7 @@ getAnswerPlot <- function(geozoom) {
   #x77 <- x77[order(x77$Life.Exp),] 
 
   p <- ggplot(x77,aes(x=Abbrev,y=Life.Exp,group=1))+geom_line()+geom_point()
-  p <- p +ylab("Life Expectancy")+ylab("State")
+  p <- p +ylab("Life Expectancy")+xlab("State")
   plot(p)
   
 
