@@ -31,11 +31,11 @@ getScatterPlot <- function(geozoom,checkGroup) {
     p <- ggplot(x77,aes(x=Life.Exp,y=yvar,color=State))+geom_point()+theme(legend.position="none")
   }
   
-  if (checkGroup == "Murder") p <- p +xlab("Life Expectancy")+ylab("Murder")
-  else if (checkGroup == "Illiteracy") p <- p +xlab("Life Expectancy")+ylab("Illiteracy")
-  else if (checkGroup == "HS Graduation") p <- p +xlab("Life Expectancy")+ylab("HS Graduation")
-  else if (checkGroup == "Income") p <- p +xlab("Life Expectancy")+ylab("Income")
-  else if (checkGroup == "Frost") p <- p +xlab("Life Expectancy")+ylab("Frost")
+  if (checkGroup == "Murder") p <- p +xlab("Life Expectancy in Years")+ylab("Murders per 1000")
+  else if (checkGroup == "Illiteracy") p <- p +xlab("Life Expectancy in Years")+ylab("Illiteracy Percentage in Population")
+  else if (checkGroup == "HS Graduation") p <- p +xlab("Life Expectancy in Years")+ylab("HS Graduation Percentage in Population")
+  else if (checkGroup == "Income") p <- p +xlab("Life Expectancy in Years")+ylab("Income per Year (1977 U$D)")
+  else if (checkGroup == "Frost") p <- p +xlab("Life Expectancy in Years")+ylab("Frost Days per Year")
   
   plot(p)
   
@@ -67,11 +67,11 @@ getSmallMult <- function(geozoom,checkGroup) {
     return(NULL)
   }
   
-  if (checkGroup == "Murder") p <- p +xlab("Life Expectancy")+ylab("Murder")
-  else if (checkGroup == "Illiteracy") p <- p +xlab("Life Expectancy")+ylab("Illiteracy")
-  else if (checkGroup == "HS Graduation") p <- p +xlab("Life Expectancy")+ylab("HS Graduation")
-  else if (checkGroup == "Income") p <- p +xlab("Life Expectancy")+ylab("Income")
-  else if (checkGroup == "Frost") p <- p +xlab("Life Expectancy")+ylab("Frost")
+  if (checkGroup == "Murder") p <- p +xlab("Life Expectancy in Years")+ylab("Murders per 1000")
+  else if (checkGroup == "Illiteracy") p <- p +xlab("Life Expectancy in Years")+ylab("Illiteracy Percentage in Population")
+  else if (checkGroup == "HS Graduation") p <- p +xlab("Life Expectancy in Years")+ylab("HS Graduation Percentage in Population")
+  else if (checkGroup == "Income") p <- p +xlab("Life Expectancy in Years")+ylab("Income per Year (1977 U$D)")
+  else if (checkGroup == "Frost") p <- p +xlab("Life Expectancy in Years")+ylab("Frost Days per Year")
   
   plot(p)
   
@@ -118,7 +118,7 @@ getHeatMap <- function(geozoom) {
   x77.m<- ddply(x77.m, .(variable), transform,rescale = rescale(value))
   
   
-  #Parallel Coord
+  #heatmap
   if (geozoom=="Division") {
     p <- ggplot(x77.m, aes(variable,Division)) 
   } else if (geozoom=="Region") {
@@ -140,12 +140,9 @@ getAnswerPlot <- function(geozoom) {
                    Region = state.region,
                    Division = state.division
   )
-  
-  #Scatter plot
-  #x77 <- x77[order(x77$Life.Exp),] 
 
-  p <- ggplot(x77,aes(x=Abbrev,y=Life.Exp,group=1))+geom_line()+geom_point()
-  p <- p +ylab("Life Expectancy")+xlab("State")
+  p <- ggplot(x77,aes(x=reorder(Abbrev, Life.Exp),y=Life.Exp,group=1))+geom_line()+geom_point()
+  p <- p +ylab("Life Expectancy in Years")+xlab("State")
   plot(p)
   
 

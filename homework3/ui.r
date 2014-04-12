@@ -26,8 +26,8 @@ shinyUI(pageWithSidebar(
         ),
         tabPanel("Small Multiples", 
           h5("State Level Plots not shown"),
-          plotOutput("smult"), 
-          width = 10
+          plotOutput("smult",height = 1000), 
+          height = 1000, width = 10
         ),
         tabPanel("Parallel Coordinates",
           h5("State Level Plot not shown"),
@@ -35,7 +35,7 @@ shinyUI(pageWithSidebar(
           width = 10
         ),
         tabPanel("Heat Map",
-          h5("State Level Heat Map not shown"),
+          h5("State Level Heatmap not shown"),
           plotOutput("heatmap"), 
           width = 10
         ),
