@@ -7,7 +7,8 @@ Homework 3: Multivariate
 
 ## Instructions ##
 
-[INSTRUCTIONS: Include instructions on how to run your code.]
+library(shiny)
+runGitHub("msan622", "osuarezmunist", subdir = "homework3")
 
 ## Discussion ##
 
