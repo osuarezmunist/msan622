@@ -1,4 +1,4 @@
-Homework [#]: [HOMEWORK NAME]
+Homework 4: Text
 ==============================
 
 | **Name**  | Octavio Suarez Munist  |
@@ -24,4 +24,4 @@ Good to grab peoples attention, but not much else.
 
 Finally, I thought it would be interesting to see the frequency of words by chapter, so I created a heatmap of the top 30 words. Since the counts were low, I used high contrast colors for the frequency. I rotated the words 45 degrees to save pixels. Also, I ordered the chapters from bottom to top, as the scales pulled the eye towards the bottom left corner.
 
-![IMAGE](Viz3heatMap.png)
+![IMAGE](Viz3HeatMap.png)
