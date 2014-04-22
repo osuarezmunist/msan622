@@ -20,5 +20,4 @@ Questions will be user-selected for the different types of analysis. To facilita
 
 Planned Interface
 ------------------------------
-![IMAGE](anscombe_quartet.png)
- 
+![IMAGE](Sketch1.pdf) 
