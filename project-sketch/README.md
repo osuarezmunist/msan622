@@ -1,10 +1,15 @@
 Project: Sketch
 ==============================
 
-| **Name**  | [YOUR NAME]  |
+| **Name**  | Octavio Suarez Munist  |
 |----------:|:-------------|
-| **Email** | [USERNAME]@dons.usfca.edu |
+| **Email** | osuarezmunist@dons.usfca.edu |
 
-## Discussion ##
 
-[DISCUSSION: Include a discussion here if required by the assignment.]
+Planned Tools
+I will be sticking to the basics, R, ggplot2 and shiny, as my focus will be in providing simple visualizations of complex analysis with interactivity
+
+Planned Techniques
+Given a relatively long questionnaire of 40-50 items, the program will be performing correlational analysis, factor analysis and linear modeling.
+
+Planned Interaction
