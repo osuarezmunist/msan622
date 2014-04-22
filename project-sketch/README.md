@@ -20,4 +20,4 @@ Questions will be user-selected for the different types of analysis. To facilita
 
 Planned Interface
 ------------------------------
-![IMAGE](Sketch1.pdf) 
+[Link to basic wireframes](Sketch1.pdf) 
