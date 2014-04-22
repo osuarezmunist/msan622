@@ -8,7 +8,7 @@ Project: Sketch
 
 Planned Tools
 ------------------------------
-I will be sticking to the basics, R, ggplot2 and shiny, as my focus will be in providing simple visualizations of complex analysis with interactivity
+I will be sticking to the basics, R, ggplot2 and shiny, as my focus will be in providing simple visualizations of complex analysis with interactivity.
 
 Planned Techniques
 ------------------------------
