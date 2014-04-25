@@ -28,5 +28,5 @@ To account for increases in KMs driven, I converted the numberof deaths to a rat
 
 Due to the cyclical nature of the data, I used a star plot to show the trend of decreasing vehicular deaths over time, but not clear if this was a results of the law.
 
-![IMAGE](Star.png)
+![IMAGE](Starr.png)
 
