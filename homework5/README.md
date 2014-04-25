@@ -17,7 +17,7 @@ Also, multiple accident variables are reported, inlcuding deaths and injuries. I
 
 To show the impact of the seatbelt law on driver deaths, I plotted 5 time series together:
 
-![IMAGE](MultivariateTS.png)
+![IMAGE](MUltivariateTS.png)
 
 From these I picked Drivers Killed as the more interesting seris, as van drivers was too small and the other ones mixed deaths and injuries, which seemed to be affected more by incidents before teh Seatbelt Law.
 
