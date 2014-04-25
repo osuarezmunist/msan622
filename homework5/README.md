@@ -15,8 +15,18 @@ The Seatbelts data sets presents several challenges, as it is a time series with
 
 Also, multiple accident variables are reported, inlcuding deaths and injuries. I chose to look at deaths, as these seem to be the outcome that would not change over time.
 
-To show the impact of the seatbelt law on driver deaths, I plotted three graphs:
+To show the impact of the seatbelt law on driver deaths, I plotted 5 time series together:
 
-1 - Driver Deaths Timeline
+![IMAGE](MultivariateTS.png)
 
-2 - 
+From these I picked Drivers Killed as the more interesting seris, as van drivers was too small and the other ones mixed deaths and injuries, which seemed to be affected more by incidents before teh Seatbelt Law.
+
+To account for increases in KMs driven, I converted the numberof deaths to a rate. I used color and a vertical bar to mark the enactement of the Seatbelt Law.
+
+![IMAGE](Timeline.png)
+
+
+Due to the cyclical nature of the data, I used a star plot to show the trend of decreasing vehicular deaths over time, but not clear if this was a results of the law.
+
+![IMAGE](Star.png)
+
