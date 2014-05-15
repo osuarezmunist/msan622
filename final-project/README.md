@@ -62,8 +62,8 @@ DATA TO INK RATIO: The bar chart captures both the total as well as the individu
 ![IMAGE] (Factor.png)
 
 
-#### Parallel Corrdinates  ####
-
+#### Parallel Coordinates Plot ####
+This plot presents another way to see the pair-wise correlations between multiple variables. Since the variables are discrete, I "mapped" the frequency of co-occurrences of responses of adjacent variables to the alpha level by setting it  very low (.01) so more frequently occuring co-occurences would result in more visible lines. While this plot is more vulnerable to an ordering effect than the heatmap above, it does also provide a general sense of each variable's response frequency. It may also help identify unusual response patterns such as selecting the same response for all questions.  
 
 
 LIE FACTOR: 
