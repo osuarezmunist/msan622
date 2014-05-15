@@ -48,15 +48,15 @@ DATA TO INK RATIO: The biggest waste, of course, is the redundancy of the matrix
 
 
 #### Bar Graph of Factor Analysis ####
+I played around with line graphs, including scree plots, before settling on this bar chart to show multiple runs of factor analysis. Using lines resulted in overplotting. Because I arbitrarily chose 10 as the maximum number of choices, I only found one Color Brewer palette that would accomodate this. The colors are ugly, but the contrast is good to be able to follow the percent of variance explained by by factor for each run. 
+The plot clearly shows the loss in variance explained to the first factor when adding more factors to the computation. It is not so clear for other factors. 
 
 
+LIE FACTOR: Since all the CFA runs are put on the same scale (0-1.0) the lie factor is very good, as bar heights can be accurately compared on both the x and y dimensions.
 
-LIE FACTOR: 
+DATA DENSITY: Again, considering the amount of data points and computation behind multiple CFA runs, the plot is very efficient. Additionally, 
 
-DATA DENSITY: 
-
-DATA TO INK RATIO: 
-
+DATA TO INK RATIO: The bar chart captures both the total as well as the individual factors' proportion of variance explained with the bars. I think this is a good balance between ink and readability.
 
 
-![IMAGE] (BarGraph.png)
+![IMAGE] (Factor.png)
