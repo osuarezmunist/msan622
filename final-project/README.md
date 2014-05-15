@@ -5,7 +5,7 @@ Final Project
 |----------:|:-------------|
 | **Email** | osuarezmunist@dons.usfca.edu |
 
-## Introduction ##
+### Introduction ###
 The purpose of this prototype was to explore the benefits of using visualizations to quickly assess the potential value of a survey of students. I regularly have to analyze results of questionnaires administered by third parties with no previous knwoledge or information about the origin of the questions or the purpose of the survey. In additon to basic descriptives, I am trying to (1) eliminate uninteresting or mal-functioning questions, (2) group questions into dimensions and/or indexes and (3) select dependent and independent variables for regressions. This requires an iterative process to select variables of interest and group into associated sets. I am exploring the use of visualizations to (1) more efficiently make the first "cuts" of the variables and (2) reduce the number and length of interations to the final selection and grouping of the variables of interest. 
 
 I envision this being a useful tool for me and my colleagues doing similar work.I expect to end up with 8-10 visualizations that can be used across many similar questionniares, but do not expect all visualizations to work for all data sets.
@@ -75,4 +75,24 @@ DATA TO INK RATIO: Lines between points do not have goof DIR, but, in this plot,
 
 ![IMAGE] (ParCoord.png)
 
+
+### Interactivity ###
+Since the purpose of this tool is to allow for the selection of variables for further anlaysis, I implemented two user-selected widgets to support this selection. I listed the ordinal variables in a multi-select checkbox and the categorical variables in a radio button. While this is a simple interface, the interaction with the four plots results in a powerful to quickly familiarize a statitically trained user with a new data set. The ability to efficiently iterate through different types of analysis on the way to coming up with a traige of the variables in the data set.
+
+Every time an ordinal variable is selected or de-selected, the active plot is regenerated, and this carries through to all other plots if made active. When a categorical variable is selected, the frequencies and parallel coordinates plots are redrawn with  the catgories mapped to color. 
+
+The combination of a simple checkbox for selecting the variables of interst with automatic generaiotn of visual representations of key descriptives and statistics results in a much more efficient process to become familiar with a new data set. 
+
+### Prototyoe Feedback ###
+I was unable to participate in the class feedback activity due to illness. However, I showed a number of versions of the tool to my colleagues at work. A number of visualizations were dropped based on their feedback. In particular, line graphs quickly became too dense be efficient even with a relatively small data set. Secondly, the need for more control (thoruhg more widgets) quickly became too costly to program. It became clear that the tool worked best early in the data analysis process, but would just become one more interface to learn to navigate if extended.
+
+
+### Challenges ###
+My first challenge was selecting a limited number of statistics tha would be useful but not mislead the user, especially for the more sophisticated analysis wher there are many assumptions and statistics to check before reaching conclusions. 
+
+Additionally, the variable in the data set corresponded to questioj prompts that were arbitrarily long. This is a major difficulty when working with many data sets like this one. YOu do not have time to come up with meaningful but short variables, so we simply have to reference questions by the variable name ("Q_*). I added a tab with this mapping, and it actually is very helpful, as one can keep looking at the screen instead of changing to another screen. 
+
+My third challenge was to create a simple interface in shiny. The problem was that I had a long list of variables, but I wanted to create a tool thatt was flexible enough to read different data sets. This resulted in an overly long multi-select widget that required scrolling and hid other widgets. If I had more time, I would have figured out a better way to show the selected variables. 
+
+I tried to add a few more widgets to add additonal functionality, but these quickly became too complex, as there would need to be a lot of code needed to handle the particularities of different types of variables. I think that my keeping the tool very simple, it can allow to more efficiently iterate through the first cycles of data analysis.
 
