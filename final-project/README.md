@@ -47,7 +47,7 @@ DATA TO INK RATIO: The biggest waste, of course, is the redundancy of the matrix
 ![IMAGE] (HeatMap.png)
 
 
-#### Bar Graph of Factor Analysis ####
+#### Bar Graph of Factor Analysis Runs ####
 I played around with line graphs, including scree plots, before settling on this bar chart to show multiple runs of factor analysis. Using lines resulted in overplotting. Because I arbitrarily chose 10 as the maximum number of choices, I only found one Color Brewer palette that would accomodate this. The colors are ugly, but the contrast is good to be able to follow the percent of variance explained by by factor for each run. 
 The plot clearly shows the loss in variance explained to the first factor when adding more factors to the computation. It is not so clear for other factors. 
 
@@ -60,3 +60,16 @@ DATA TO INK RATIO: The bar chart captures both the total as well as the individu
 
 
 ![IMAGE] (Factor.png)
+
+
+#### Parallel Corrdinates  ####
+
+
+
+LIE FACTOR: 
+
+DATA DENSITY: 
+DATA TO INK RATIO: 
+
+
+![IMAGE] (ParCoord.png)
