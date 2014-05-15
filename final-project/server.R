@@ -95,7 +95,7 @@ getFactorAnalysis  <- function(ordinals) {
     fr <- read.delim(paste("fitloadings",i,".txt"), sep="\t", fill=TRUE, header=FALSE,
                      stringsAsFactors=FALSE)
     for (j in 1:i) {
-      varexp[j,i] <- as.numeric(substr(fr$V1[4+ncol(surnum[,numselect])],10+6*j,15+6*j))
+      varexp[j,i] <- as.numeric(substr(fr$V1[5+ncol(surnum[,numselect])],10+6*j,15+6*j))
     } 
   }
   ve <-data.frame(varexp)
@@ -105,10 +105,11 @@ getFactorAnalysis  <- function(ordinals) {
   p <- ggplot(ve.m, aes(comp, value, group=variable,color=variable)) 
   p <- p + geom_line()+ geom_point()
   p <- ggplot(ve.m, aes(x=variable,y=value,fill=factor(comp))) + geom_bar(stat="identity")
-  p <- p + ggtitle("Percent Variance Explained by Number of Factors in PCA")
+  p <- p + ggtitle("Proportion Variance Explained by Number of Factors in PCA")
   p <- p + ylab("Proportion Variance Explained") 
   p <- p + xlab("Number of Factors in CFA stacked by order of extraction")
   p <- p +theme(legend.position="none")
+  p <- p + scale_fill_brewer(type="qual", palette=3)
   plot(p)
 
   plot(p)
@@ -129,12 +130,12 @@ getParCoordPlot  <- function(ordinals,categoricals) {
     pcdf$Grouping <- factor(surcat[,catselect])
     pc <- ggparcoord(pcdf,columns = c(1:ncol(pcdf)-1), 
                      groupColumn =ncol(pcdf),
-                     scale = "uniminmax" ) + geom_line()
+                     scale = "uniminmax",alphaLines=.01 ) #+ geom_line()
   } else {
   #Parallel Coord
  
     pc <- ggparcoord(pcdf,columns = c(1:ncol(pcdf)), 
-                     scale = "uniminmax" ) + geom_line()
+                     scale = "uniminmax",alphaLines=.01 ) #+ geom_line()
   }
   plot(pc)
 }
