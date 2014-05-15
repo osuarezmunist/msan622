@@ -23,7 +23,8 @@ A major issue when dealing with long lists of variables is displaying the associ
 This will usually be the place to start exploring the data set. First, I explored visualizations of summary statistics such as mean, mode, and skewness. However, visualizing the shape of the distribution proved to be most efficient way to identify variables with problematic distributions. For example, in the plot below, variables Q06, Q07, Q08 stand out very clearly as having an extreme response pattern with little variance. (I will discuss the use of color in the interactivity section).
 
 LIE FACTOR: This is a major concern when looking at a dynamic set of variables because the scales can change dramatically depending on the set of variables. In the plot below, Q12 has a 7-point that extends the x-axis. 
-lie factor, data density data to ink ratio
+DATA DENSITY: Small multiples are quite dense to begin with, even when the response scale varies slighlty.  
+DATA TO INK RATIO: Again, small multiples have very good DTI raio, but require a lot of mental processing. While the axis labels are repeated, the alternatives would increase eye travel. I tried including the question prompts for each sub-plot, but this turn the small into large multiples.
 
 ![IMAGE](SmallMult.png)
 
