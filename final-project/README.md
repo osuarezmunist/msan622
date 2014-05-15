@@ -1,9 +1,9 @@
 Final Project
 ==============================
 
-| **Name**  | [YOUR NAME]  |
+| **Name**  | Octavio Suarez Munist  |
 |----------:|:-------------|
-| **Email** | [USERNAME]@dons.usfca.edu |
+| **Email** | osuarezmunist@dons.usfca.edu |
 
 ## Discussion ##
 
