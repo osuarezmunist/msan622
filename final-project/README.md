@@ -24,14 +24,14 @@ This will usually be the place to start exploring the data set. First, I explore
 
 LIE FACTOR: This is a major concern when looking at a dynamic set of variables because the scales can change dramatically depending on the set of variables. In the plot below, Q12 has a 7-point that extends the x-axis. 
 
-DATA DENSITY: Small multiples are quite dense to begin with, even when the response scale varies slighltly. 
+DATA DENSITY: Small multiples are quite dense to begin with, even when the response scale varies slightly. 
 
 DATA TO INK RATIO: Again, small multiples have very good DIR, but require a lot of mental processing. While the axis labels are repeated, the alternatives would increase eye-ball travel exponentially. I tried including the question prompts for each sub-plot, but this turn the small into large multiples.
 
 ![IMAGE] (SmallMult.png)
 
 #### HeatMap of Correlations ####
-Once a few bad variables, have been dropped, I find this heatmap to be extremely useful. It allows for a quick selection of the first groupings of variables for analysis. I mapped the strength of the correlations between paris of variables to a divergent 2-color palette. In the plot below, you can quickly see the variables that are good candidates to group for further analysis. 
+Once a few bad variables, have been dropped, I find this heatmap to be extremely useful. It allows for a quick selection of the first groupings of variables for analysis. I mapped the strength of the correlations between pairs of variables to a divergent 2-color palette. In the plot below, you can quickly see the variables that are good candidates to group for further analysis. 
 
 In this exploration, I was interested in examining visual representations of many types of statistics to make the analysis of a data set more efficient. I find this plot to be very effective at presenting the top-level view of the potential associations between variables. It tells me where to start.
 
@@ -48,7 +48,7 @@ DATA TO INK RATIO: The biggest waste, of course, is the redundancy of the matrix
 
 
 #### Bar Graph of Factor Analysis Runs ####
-I played around with line graphs, including scree plots, before settling on this bar chart to show multiple runs of factor analysis. Using lines resulted in overplotting. Because I arbitrarily chose 10 as the maximum number of choices, I only found one Color Brewer palette that would accommodate this. The colors are ugly, but the contrast is good to be able to follow the percent of variance explained by by factor for each run. 
+I played around with line graphs, including scree plots, before settling on this bar chart to show multiple runs of factor analysis. Using lines resulted in overplotting. Because I arbitrarily chose 10 as the maximum number of choices, I only found one Color Brewer palette that would accommodate this. The colors are ugly, but the contrast is good to be able to follow the percent of variance explained by factor for each run. 
 The plot clearly shows the loss in variance explained to the first factor when adding more factors to the computation. It is not so clear for other factors. 
 
 
@@ -77,7 +77,7 @@ DATA TO INK RATIO: Lines between points do not have goof DIR, but, in this plot,
 
 
 ### Interactivity ###
-Since the purpose of this tool is to allow for the selection of variables for further analysis, I implemented two user-selected widgets to support this selection. I listed the ordinal variables in a multi-select checkbox and the categorical variables in a radio button. While this is a simple interface, the interaction with the four plots results in a powerful to quickly familiarize a statistically trained user with a new data set. The ability to efficiently iterate through different types of analysis on the way to coming up with a traige of the variables in the data set.
+Since the purpose of this tool is to allow for the selection of variables for further analysis, I implemented two user-selected widgets to support this selection. I listed the ordinal variables in a multi-select checkbox and the categorical variables in a radio button. While this is a simple interface, the interaction with the four plots results in a powerful to quickly familiarize a statistically trained user with a new data set. The ability to efficiently iterate through different types of analysis on the way to coming up with a triage of the variables in the data set.
 
 Every time an ordinal variable is selected or de-selected, the active plot is regenerated, and this carries through to all other plots if made active. When a categorical variable is selected, the frequencies and parallel coordinates plots are redrawn with  the categories mapped to color. 
 
