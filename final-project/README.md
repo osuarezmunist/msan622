@@ -45,3 +45,18 @@ DATA TO INK RATIO: The biggest waste, of course, is the redundancy of the matrix
 
 
 ![IMAGE] (HeatMap.png)
+
+
+#### Bar Graph of Factor Analysis ####
+
+
+
+LIE FACTOR: 
+
+DATA DENSITY: 
+
+DATA TO INK RATIO: 
+
+
+
+![IMAGE] (BarGraph.png)
