@@ -19,7 +19,7 @@ I selected a typical data set of around 800 reponses to a pre-course survey of a
 ### Techniques ###
 A major issue when dealing with long lists of variables is displaying the associated question prompts. Since the prompts are arbitrarily long and not easy so reduce to a few characters, I chose to use the variable/column names in all visualization. This is in line with what is done in the anlaysis, although final results would need to include prompts. I provided a tab with the variable names and associated prompts so users can easily look these up.
 
-#### Small Multiples ####
+#### Small Multiples of Response Frequencies ####
 This will usually be the place to start exploring the data set. First, I explored visualizations of summary statistics such as mean, mode, and skewness. However, visualizing the shape of the distribution proved to be most efficient way to identify variables with problematic distributions. For example, in the plot below, variables Q06, Q07, Q08 stand out very clearly as having an extreme response pattern with little variance. (I will discuss the use of color in the interactivity section).
 
 LIE FACTOR: This is a major concern when looking at a dynamic set of variables because the scales can change dramatically depending on the set of variables. In the plot below, Q12 has a 7-point that extends the x-axis. 
@@ -30,14 +30,18 @@ DATA TO INK RATIO: Again, small multiples have very good DIR, but require a lot 
 
 ![IMAGE] (SmallMult.png)
 
-#### HeatMap ####
-Once a few bad variables, have been dropped, I find this heatmap to be extremely useful. It allows for a quick selection of the first groupings of variables for analysis. In the plot below, you can quickly see the variables that are good candidates to group for further analysis. 
+#### HeatMap of Correlations ####
+Once a few bad variables, have been dropped, I find this heatmap to be extremely useful. It allows for a quick selection of the first groupings of variables for analysis. I mapped the strength of the correlations between paris of variables to a divergent 2-color palatte. In the plot below, you can quickly see the variables that are good candidates to group for further analysis. 
+
+In this exploration, I was interested in examining visual representations of many types of statistics to make the analysis of a data set more efficient. I find this plot to be very effective at presenting the top-levle view of the potential associations between variables. It tells me where to start.
 
 
-LIE FACTOR: This is a major concern when looking at a dynamic set of variables because the scales can change dramatically depending on the set of variables. In the plot below, Q12 has a 7-point that extends the x-axis. 
+LIE FACTOR: As correlations range from -1 to 1, this result in a sufficiently precise mapping of the statistic. The eye is drwan towards the more saturated tiles, as is desired.  
 
-DATA DENSITY: Small multiples are quite dense to begin with, even when the response scale varies slighlty. 
+DATA DENSITY: Taking into account that each correlation is a summary of 2N data points, the data density is very good. While the size of the tiles can be reduced to just large enough for the human eye to distinguish differences in shading between adjacent cells, I tried to use as much screen space as available to facilitate the identification of the pairs of interest.
 
-DATA TO INK RATIO: Again, small multiples have very good DIR, but require a lot of mental processing. While the axis labels are repeated, the alternatives would increase eye-ball travel exponentially. I tried including the question prompts for each sub-plot, but this turn the small into large multiples.
+DATA TO INK RATIO: The biggest waste, of course, is the redundancy of the matrix due to the diagonal symmetry. I tried graying out the top-left or bottom-right halfs, but that gave readers the impression that something was wrong or missing. Also, people may vary in their choice of which halt to use. So, it seems to be the standard to ink on both sides of the diagonal.
+
+
 
 ![IMAGE] (HeatMap.png)
