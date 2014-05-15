@@ -26,6 +26,6 @@ LIE FACTOR: This is a major concern when looking at a dynamic set of variables b
 DATA DENSITY: Small multiples are quite dense to begin with, even when the response scale varies slighlty.  
 DATA TO INK RATIO: Again, small multiples have very good DTI raio, but require a lot of mental processing. While the axis labels are repeated, the alternatives would increase eye travel. I tried including the question prompts for each sub-plot, but this turn the small into large multiples.
 
-![IMAGE](SmallMult.png)
+![IMAGE] (SmallMult.png)
 
 #### HeatMap ####
