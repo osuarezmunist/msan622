@@ -17,5 +17,13 @@ I selected a typical data set of around 800 reponses to a pre-course survey of a
 
 
 ### Techniques ###
+A major issue when dealing with long lists of variables is displaying the associated question prompts. Since the prompts are arbitrarily long and not easy so reduce to a few characters, I chose to use the variable/column names in all visualization. This is in line with what is done in the anlaysis, although final results would need to include prompts. I provided a tab with the variable names and associated prompts so users can easily look these up.
+
+#### Small Multiples ####
+This will usually be the place to start exploring the data set. First, I explored visualizations of summary statistics such as mean, mode, and skewness. However, visualizing the shape of the distribution proved to be most efficient way to identify variables with problematic distributions. For example, in the plot below, variables Q06, Q07, Q08 stand out very clearly as having an extreme response pattern with little variance. (I will discuss the use of color in the interactivity section).
+
+lie factor, data density data to ink ratio
+
+![IMAGE](SmallMult.png)
 
 #### HeatMap ####
