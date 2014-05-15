@@ -130,12 +130,12 @@ getParCoordPlot  <- function(ordinals,categoricals) {
     pcdf$Grouping <- factor(surcat[,catselect])
     pc <- ggparcoord(pcdf,columns = c(1:ncol(pcdf)-1), 
                      groupColumn =ncol(pcdf),
-                     scale = "uniminmax",alphaLines=.01 ) #+ geom_line()
+                     scale = "globalminmax",alphaLines=.01 ) #+ geom_line()
   } else {
   #Parallel Coord
  
     pc <- ggparcoord(pcdf,columns = c(1:ncol(pcdf)), 
-                     scale = "uniminmax",alphaLines=.01 ) #+ geom_line()
+                     scale = "globalminmax",alphaLines=.01 ) #+ geom_line()
   }
   plot(pc)
 }

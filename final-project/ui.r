@@ -41,11 +41,7 @@ shinyUI(pageWithSidebar(
                  plotOutput("parcoord"), 
                  width = 10        
         )
-        ,tabPanel("Return Value",
-                          h5("What's in there?"),
-                          textOutput("textout"),  
-                          width = 10
-        )
+
       )
 
   )

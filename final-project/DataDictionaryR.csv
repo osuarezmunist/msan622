@@ -1,0 +1,54 @@
+Variable,Prompt
+V9,EndDate
+V10,Finished
+Q01,Chemistry Study /  Spring 2014 - PRESURVEY
+Q02,Please Select your school from the list below:
+Q03,"Previous to this semester, how many semesters have you attended classes / at this university?"
+Q04,What was your GPA (Grade Point Average) your last semester in / college?
+Q05,What grade do you expect to obtain in this class?
+Q06,How many credit hours are you taking this semester?
+Q29,Please list the other courses you are taking this /  semester.
+Q07,What is your intended degree?
+Q08,Why did you choose to take this course?
+Q09,Please rate your overall level of interest in the subject matter of this / course.
+Q10_1,To what degree do you agree with / the following statements?--Good grades are important to me
+Q10_2,To what degree do you agree with / the following statements?--I am well-prepared before I come to class
+Q10_3,To what degree do you agree with / the following statements?--I come well rested to class
+Q10_4,To what degree do you agree with / the following statements?--I study for exams
+Q10_5,To what degree do you agree with / the following statements?--I attend class regularly
+Q10_6,To what degree do you agree with / the following statements?--I am confident in my ability to succeed in this course.
+Q10_7,To what degree do you agree with / the following statements?--I pay attention in class
+Q10_8,To what degree do you agree with / the following statements?--I know I will graduate from college
+Q10_9,To what degree do you agree with / the following statements?--I can think of many ways to get good grades
+Q10_10,To what degree do you agree with / the following statements?--I energetically pursue my goals
+Q10_11,To what degree do you agree with / the following statements?--I can find lots of ways around any problem
+Q10_12,To what degree do you agree with / the following statements?--Time flies when I study
+Q10_13,To what degree do you agree with / the following statements?--I am proud of my studies
+Q10_14,To what degree do you agree with / the following statements?--When I study I feel good
+Q10_15,To what degree do you agree with / the following statements?--My studies mean something to me
+Q11,"How much time, in hours, do you expect to spend on homework and studying / outside of class per week?"
+Q12,How many hours per week do you expect to work at a job this semester?
+Q13,What is your gender?
+Q14,What is your race/ethnicity? Please mark the one box that describes the race/ethnicity category with...
+Q15,Is English your first language?
+Q16,What is your age?
+Q17,What is your intended major?
+Q18_1,Do / you have one or more of the following disabilities or medical conditions that / affects your abilit...-None
+Q18_2,Do / you have one or more of the following disabilities or medical conditions that / affects your abilit...-Attention deficit hyperactivity disorder (ADHD)
+Q18_3,Do / you have one or more of the following disabilities or medical conditions that / affects your abilit...-Autism spectrum/Asperger?s Syndrome
+Q18_4,"Do / you have one or more of the following disabilities or medical conditions that / affects your abilit...-Chronic illness (e.g., cancer, diabetes, autoimmune disorder)"
+Q18_5,"Do / you have one or more of the following disabilities or medical conditions that / affects your abilit...-Learning disability (e.g., dyslexia)"
+Q18_6,"Do / you have one or more of the following disabilities or medical conditions that / affects your abilit...-Physical disability (e.g., sight, hearing)"
+Q18_7,"Do / you have one or more of the following disabilities or medical conditions that / affects your abilit...-Psychological disorder (e.g., depression, bipolar disorder)"
+Q18_8,Do / you have one or more of the following disabilities or medical conditions that / affects your abilit...-Other
+Q19_1,"Have you ever taken General Chemistry before? (Please select all that apply)-No, this is the first time"
+Q19_2,"Have you ever taken General Chemistry before? (Please select all that apply)-Yes, in High School"
+Q19_3,"Have you ever taken General Chemistry before? (Please select all that apply)-Yes, in college and received the following grade (A-F or Withdrew or Incomplete)"
+Q19_3_TEXT,"Have you ever taken General Chemistry before? (Please select all that apply)-Yes, in college and received the following grade (A-F or Withdrew or Incomplete)-TEXT"
+Q20_1,To what degree do you agree with / the following statements?--I regularly use a computer or iPad or similar device when in class
+Q20_2,To what degree do you agree with / the following statements?--Using online materials helps me in my studies
+Q20_3,To what degree do you agree with / the following statements?--I have used online learning materials regularly in high school and college
+Q21,"Are you using or have you used an online homework system in other / courses ? If yes, please list these."
+Q22,How do you think the use of technology will affect your level of / interest in this course?
+Q23,How do you think the use of technology will affect your level of / engagement in this course?
+Q24,"Compared to your peers, how would you rate your ability with / computers?"
