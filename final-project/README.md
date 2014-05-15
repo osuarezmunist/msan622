@@ -70,7 +70,7 @@ LIE FACTOR: The biggest concern with parallel coordinates plot is the ordering e
 
 DATA DENSITY: PCPs allow multiple variables to me mapped simultaneously, making them dense. They provide some sense of the distribution of the responses, especially when not scaled, as is possible when the variables mapped have similar discrete ranges. This homogeneity reduces the number of lines and allows for smaller plots if desired, when very efficient data density
 
-DATA TO INK RATIO: Lines between points do not have goof DIR, but, in this plot, where the frequency of co-occurrences is mapped to the alpha level of the lines, the result is a reduction in the number of lines. Rather than the number of lines being a function of the number of cases, it is a function of the number of choices. This reduces overplotting tremendously and results in a goof data to ink ratio, even for a lne graph.
+DATA TO INK RATIO: Lines between points do not have goof DIR, but, in this plot, where the frequency of co-occurrences is mapped to the alpha level of the lines, the result is a reduction in the number of lines. Rather than the number of lines being a function of the number of cases, it is a function of the number of choices. This reduces overplotting tremendously and results in a good data to ink ratio, even for a line graph.
 
 
 ![IMAGE] (ParCoord.png)
