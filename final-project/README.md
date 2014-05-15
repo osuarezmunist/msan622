@@ -26,8 +26,18 @@ LIE FACTOR: This is a major concern when looking at a dynamic set of variables b
 
 DATA DENSITY: Small multiples are quite dense to begin with, even when the response scale varies slighlty. 
 
-DATA TO INK RATIO: Again, small multiples have very good DTI raio, but require a lot of mental processing. While the axis labels are repeated, the alternatives would increase eye travel. I tried including the question prompts for each sub-plot, but this turn the small into large multiples.
+DATA TO INK RATIO: Again, small multiples have very good DIR, but require a lot of mental processing. While the axis labels are repeated, the alternatives would increase eye-ball travel exponentially. I tried including the question prompts for each sub-plot, but this turn the small into large multiples.
 
 ![IMAGE] (SmallMult.png)
 
 #### HeatMap ####
+Once a few bad variables, have been dropped, I find this heatmap to be extremely useful. It allows for a quick selection of the first groupings of variables for analysis. In the plot below, you can quickly see the variables that are good candidates to group for further analysis. 
+
+
+LIE FACTOR: This is a major concern when looking at a dynamic set of variables because the scales can change dramatically depending on the set of variables. In the plot below, Q12 has a 7-point that extends the x-axis. 
+
+DATA DENSITY: Small multiples are quite dense to begin with, even when the response scale varies slighlty. 
+
+DATA TO INK RATIO: Again, small multiples have very good DIR, but require a lot of mental processing. While the axis labels are repeated, the alternatives would increase eye-ball travel exponentially. I tried including the question prompts for each sub-plot, but this turn the small into large multiples.
+
+![IMAGE] (HeatMap.png)
