@@ -66,7 +66,7 @@ DATA TO INK RATIO: The bar chart captures both the total as well as the individu
 This plot presents another way to see the pair-wise correlations between multiple variables. Since the variables are discrete, I "mapped" the frequency of co-occurrences of responses of adjacent variables to the alpha level by setting it  very low (.01) so more frequently occurring co-occurrences would result in more visible lines. While this plot is more vulnerable to an ordering effect than the heatmap above, it does also provide a general sense of each variable's response frequency. It may also help identify unusual response patterns such as selecting the same response for all questions.  
 
 
-LIE FACTOR: The biggest concern with parallel coordinates plot is the ordering effect. That can hide or exaggerate the apparent strength of an association. 
+LIE FACTOR: The biggest concern with parallel coordinates plot is the ordering effect. That can hide or exaggerate the apparent strength of an association. I ordered the variables by skewness, but not clear what would work best.
 
 DATA DENSITY: PCPs allow multiple variables to me mapped simultaneously, making them dense. They provide some sense of the distribution of the responses, especially when not scaled, as is possible when the variables mapped have similar discrete ranges. This homogeneity reduces the number of lines and allows for smaller plots if desired, when very efficient data density
 
