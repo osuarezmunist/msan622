@@ -79,6 +79,8 @@ DATA TO INK RATIO: Lines between points do not have goof DIR, but, in this plot,
 ### Interactivity ###
 Since the purpose of this tool is to allow for the selection of variables for further analysis, I implemented two user-selected widgets to support this selection. I listed the ordinal variables in a multi-select checkbox and the categorical variables in a radio button. While this is a simple interface, the interaction with the four plots results in a powerful to quickly familiarize a statistically trained user with a new data set. The ability to efficiently iterate through different types of analysis on the way to coming up with a triage of the variables in the data set.
 
+For the factor analysis bar chart, I set the color palette because the number of colors does not vary, since the number of factors is fixed at 10. For the parallel coordinates plot and the small multiples bar charts, I took the default because the number of colors varies by the number of response choices in the selected variables. 
+
 Every time an ordinal variable is selected or de-selected, the active plot is regenerated, and this carries through to all other plots if made active. When a categorical variable is selected, the frequencies and parallel coordinates plots are redrawn with  the categories mapped to color. 
 
 The combination of a simple checkbox for selecting the variables of interest with automatic generation of visual representations of key descriptives and statistics results in a much more efficient process to become familiar with a new data set. 
@@ -94,5 +96,8 @@ Additionally, the variable in the data set corresponded to question prompts that
 
 My third challenge was to create a simple interface in shiny. The problem was that I had a long list of variables, but I wanted to create a tool that was flexible enough to read different data sets. This resulted in an overly long multi-select widget that required scrolling and hid other widgets. If I had more time, I would have figured out a better way to show the selected variables. 
 
-I tried to add a few more widgets to add additional functionality, but these quickly became too complex, as there would need to be a lot of code needed to handle the particularities of different types of variables. I think that my keeping the tool very simple, it can allow to more efficiently iterate through the first cycles of data analysis.
+I tried to add a few more widgets to add additional functionality, but these quickly became too complex, as there would need to be a lot of code needed to handle the particularities of different types of variables. I think that by keeping the tool very simple, it can allow me to more efficiently iterate through the first 2-3 cycles of data analysis.
+
+
+
 
