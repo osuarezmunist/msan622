@@ -7,6 +7,7 @@ require(GGally)
 require(psych)
 require(GPArotation)
 
+
 # Get needed files
 sur <- read.csv("PreSurveyR.csv")
 dd <- read.csv("DataDictionaryR.csv")
@@ -129,14 +130,16 @@ getParCoordPlot  <- function(ordinals,categoricals) {
     }
     pcdf$Grouping <- factor(surcat[,catselect])
     pc <- ggparcoord(pcdf,columns = c(1:ncol(pcdf)-1), 
-                     groupColumn =ncol(pcdf),
+                     groupColumn =ncol(pcdf), order = "skewness",
                      scale = "globalminmax",alphaLines=.01 ) #+ geom_line()
+    pc <- pc + guides(colour = guide_legend(override.aes = list(alpha = 1)))
   } else {
   #Parallel Coord
  
-    pc <- ggparcoord(pcdf,columns = c(1:ncol(pcdf)), 
+    pc <- ggparcoord(pcdf,columns = c(1:ncol(pcdf)), order = "skewness",
                      scale = "globalminmax",alphaLines=.01 ) #+ geom_line()
   }
+  pc <- pc + theme(axis.text.x = element_text(angle = 270, hjust = 0))
   plot(pc)
 }
 
